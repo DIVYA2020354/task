@@ -1,0 +1,128 @@
+.hero-container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.hero-container span{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 12px   ;
+    margin-top: 25px;
+    
+
+    
+}
+
+
+#h2{
+    color: #F5874E;
+    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    border-bottom: 1px dashed #ccc;
+    position: relative;
+
+
+
+}
+#p1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 65px;
+    font-size: 10px;
+    
+    
+}
+
+.menu-item span {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1200px) {
+    .hero-container h1 {
+      font-size: 2.2rem;
+    }
+  
+    .menu span {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero-container h1 {
+      font-size: 2rem;
+    }
+  
+    .menu {
+      padding: 15px;
+    }
+  
+    .menu span {
+      font-size: 14px;
+    }
+  
+    #p1 {
+      font-size: 9px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero-container span {
+      gap: 8px;
+    }
+  
+    .menu {
+      padding: 10px;
+    }
+  
+    .menu span {
+      font-size: 12px;
+    }
+  
+    #p1 {
+      font-size: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .hero-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .hero-container span {
+      gap: 5px;
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .menu {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .menu span {
+      font-size: 14px;
+    }
+  
+    #p1 {
+      font-size: 8px;
+      position: static; /* Reset position */
+      margin-top: 5px;
+    }
+  }
+  

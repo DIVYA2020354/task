@@ -1,0 +1,156 @@
+.img-box img{
+  width: 400px;
+  height: 465px;
+  margin: 29px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius:50px ;
+
+}
+.content-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5%;
+  position: relative;
+  max-width: 600px;
+}
+
+.content-box h6{
+  font-size: 15px;
+  color: rgb(245, 135, 78);
+  text-transform: uppercase;
+  margin: 36px;
+  position: relative;
+
+}
+.content-box h6::after{
+  content: " ";
+  display: inline-block;
+  width: 50px; 
+  height: 2px; 
+  background-color: #D87C51;
+  margin-left: 10px; 
+  vertical-align: middle;
+}
+
+#p-text{
+  font-family: "Libre Caslon Display";
+  font-weight: bold;
+  font-style: italic;
+  line-height:30px;
+  letter-spacing: 0;
+
+  font-size: 30px;
+  text-transform: lowercase;
+  margin-top: -20px;
+  padding-left: 29px;
+}
+
+#main{
+  font-family: sans-serif;
+  color:rgb(112, 112, 112);
+  font-size: 14px;
+  display: flex;
+  padding-left: 29px;
+
+
+}
+
+span img{
+width: 200px;
+height: 200px;
+margin-top: 20px;
+position: relative;
+left: 57px;
+top: -10px;
+}
+
+
+#item{
+  width: 229px;
+  height: 112px;
+  position: absolute;
+  top: 888px;
+  left: 269px;
+
+}
+
+h5{
+  color:rgb(66, 63, 63);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 7px;
+}
+pre{
+  color:hsl(0, 0%, 62%);
+  margin: 4px;
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+.row {
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-box {
+  align-items: center;
+  text-align: center;
+  padding: 0 10%;
+}
+
+#p-text, #main {
+  padding-left: 0;
+}
+
+span img {
+  width: 100px;
+  height: 100px;
+  left: 0;
+  top: 0;
+  margin: 20px auto;
+}
+
+#item {
+  position: static; /* Change to static */
+  text-align: center;
+  margin-top: 20px;
+  width: 100%; /* Full width */
+}
+}
+
+@media screen and (max-width: 576px) {
+.content-box h6 {
+  font-size: 12px;
+}
+
+#p-text {
+  font-size: 20px;
+}
+
+#main {
+  font-size: 12px;
+}
+
+span img {
+  width: 100px;
+  height: 100px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.content-box {
+  padding: 0 5%;
+}
+
+.img-box img {
+  max-width: 500px;
+}
+
+#p-text {
+  font-size: 35px;
+}
+}
+

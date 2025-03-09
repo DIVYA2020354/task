@@ -1,0 +1,191 @@
+.container {
+    background: url("../8b47725d85056dec2fa0753d35e461c5.png") no-repeat center center/cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 5%;
+    position: relative;
+  }
+  
+  .container-content {
+    max-width: 600px;
+  }
+  
+  .container-content h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .container-content p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  .container-content button {
+    background: transparent;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    align-items: center;
+    border: 2px solid #F5874E;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact {
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    background-color: rgb(132, 24, 26);
+    width: 316px;
+    height: 100px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .contact a img {
+    width: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    filter: invert(1);
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 1200px) {
+    .container-content h1 {
+      font-size: 40px;
+    }
+  
+    .container-content p {
+      font-size: 14px;
+    }
+  
+    .container-content button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  
+    .contact {
+      width: 280px;
+      height: 90px;
+    }
+  
+    .contact a {
+      font-size: 18px;
+    }
+  
+    .contact a img {
+      width: 35px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .container-content h1 {
+      font-size: 35px;
+    }
+  
+    .container-content p {
+      font-size: 13px;
+    }
+  
+    .container-content button {
+      font-size: 0.8rem;
+      padding: 7px 14px;
+    }
+  
+    .contact {
+      width: 250px;
+      height: 80px;
+    }
+  
+    .contact a {
+      font-size: 16px;
+    }
+  
+    .contact a img {
+display: none;    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .container-content {
+      max-width: 100%;
+      padding: 0 10%;
+    }
+  
+    .container-content h1 {
+      font-size: 30px;
+    }
+  
+    .container-content p {
+      font-size: 12px;
+    }
+  
+    .container-content button {
+      font-size: 0.75rem;
+      padding: 6px 12px;
+    }
+  
+    .contact {
+      position: static;
+      width: 100%;
+      height: 80px;
+      margin-top: 20px;
+    }
+  
+    .contact a {
+      font-size: 14px;
+    }
+  
+    .contact a img {
+        display: none;    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container-content h1 {
+      font-size: 25px;
+    }
+  
+    .container-content p {
+      font-size: 11px;
+    }
+  
+    .container-content button {
+      font-size: 0.7rem;
+      padding: 5px 10px;
+    }
+  
+    .contact {
+      height: 70px;
+    }
+  
+    .contact a {
+      font-size: 12px;
+    }
+  
+    .contact a img {
+        display: none;    }
+  }
